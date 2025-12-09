@@ -52,9 +52,9 @@ X-API-Token: YOUR_API_KEY_HERE
     "postal_code": "11714",
     "country": "US",
     "street2": "#111A",
-    "name": "Andrew Haner",
-    "company": "Medusa Distribution",
-    "phone": "312-555-1212",
+    "name": "John Doe",
+    "company": "JD Distribution",
+    "phone": "123-345-5678",
     "email": "andrew@medusadistribution.com"
   },
   "destination": {
@@ -66,7 +66,7 @@ X-API-Token: YOUR_API_KEY_HERE
     "street2": "Press Box 23",
     "name": "Michael Jordan",
     "company": "Only The Bulls",
-    "phone": "312-555-1212",
+    "phone": "123-345-5678",
     "email": "mj@onlythebulls.com"
   },
   "config": {
@@ -79,8 +79,6 @@ X-API-Token: YOUR_API_KEY_HERE
   "allowed_ship_methods": [
     "Better Trucks"
   ],
-  "request_id": "9e4ee8f7-a4f9-4347",
-  "request_date_utc": "2025-12-09 22:26:00.344190+00:00",
   "external_order_id": "ORDER12345",
   "external_shipment_id": "SHIPMENT001",
   "return_address": {
@@ -99,4 +97,3 @@ X-API-Token: YOUR_API_KEY_HERE
   "shipment_sequence_number": 1
 }
 ```
-
