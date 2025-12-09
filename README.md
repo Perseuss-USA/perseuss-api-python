@@ -152,6 +152,5 @@ X-API-Token: YOUR_API_KEY_HERE
   "response_status_code": 200,
   "response_status_message": "OK"
 }
-
-
 ```
+
