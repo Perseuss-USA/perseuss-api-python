@@ -97,3 +97,61 @@ X-API-Token: YOUR_API_KEY_HERE
   "shipment_sequence_number": 1
 }
 ```
+
+### 📬 Example Successful Response
+
+```json
+{
+  "response_body": {
+    "tracking_number": "BTP_03710FL6NL8",
+    "tracking_link": "https://tracking.bettertrucks.com/tracking?trackingNumber=BTP_03710FL6NL8",
+    "shipping_cost": 19.69,
+    "shipping_cost_detail": {
+      "total_cost": 19.69,
+      "currency": "USD",
+      "line_items": {
+        "base_amount": 17.69,
+        "surcharge_FUEL_SURCHARGE": 2.0
+      }
+    },
+    "origin": {
+      "street1": "999 S Oyster Avenue",
+      "city": "Bethpage",
+      "state": "NY",
+      "postal_code": "11714",
+      "country": "US",
+      "street2": "#111A",
+      "name": "John Doe",
+      "company": "JD Distribution",
+      "phone": "123-345-5678",
+      "email": "andrew@medusadistribution.com"
+    },
+    "destination": {
+      "street1": "1901 W Madison Street",
+      "city": "Chicago",
+      "state": "IL",
+      "postal_code": "60612",
+      "country": "US",
+      "street2": "Press Box 23",
+      "name": "Michael Jordan",
+      "company": "Only The Bulls",
+      "phone": "123-345-567",
+      "email": "mj@onlythebulls.com"
+    },
+    "parcel": {
+      "width": 5,
+      "length": 3,
+      "height": 5,
+      "weight": 10.2,
+      "uom_weight": "lb",
+      "uom_distance": "in"
+    },
+    "shipping_label_pdf_url": "https://cdn.api-bettertrucks.com/38551f_639009183554442049.pdf",
+    "shipping_label_zpl_string": "^XA^GFA,120000,120000,100,,:::..."
+  },
+  "response_status_code": 200,
+  "response_status_message": "OK"
+}
+
+
+```
