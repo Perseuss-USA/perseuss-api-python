@@ -154,3 +154,70 @@ X-API-Token: YOUR_API_KEY_HERE
 }
 ```
 
+### CURL
+```bash
+curl --location --request POST 'https://backend.perseuss.xyz/tms/generate_label/v1' \
+--header 'Content-Type: application/json' \
+--header 'X-API-Token: YOUR_API_KEY_HERE' \
+--data-raw '{
+  "parcel": {
+    "width": 5,
+    "length": 3,
+    "height": 5,
+    "weight": 10.2,
+    "uom_weight": "lb",
+    "uom_distance": "in"
+  },
+  "origin": {
+    "street1": "999 S Oyster Avenue",
+    "city": "Bethpage",
+    "state": "NY",
+    "postal_code": "11714",
+    "country": "US",
+    "street2": "#111A",
+    "name": "John Doe",
+    "company": "JD Distribution",
+    "phone": "123-345-5678",
+    "email": "john.doe@gmail.com"
+  },
+  "destination": {
+    "street1": "1901 W Madison Street",
+    "city": "Chicago",
+    "state": "IL",
+    "postal_code": "60612",
+    "country": "US",
+    "street2": "Press Box 23",
+    "name": "Michael Jordan",
+    "company": "Only The Bulls",
+    "phone": "123-345-5678",
+    "email": "mj@onlythebulls.com"
+  },
+  "config": {
+    "signature_required": false,
+    "adult_signature_required": true,
+    "hazmat": true,
+    "perishable": false,
+    "other_metadata": {}
+  },
+  "allowed_ship_methods": [
+    "Better Trucks"
+  ],
+  "external_order_id": "ORDER12345",
+  "external_shipment_id": "SHIPMENT001",
+  "return_address": {
+    "street1": "999 S Oyster Avenue",
+    "city": "Bethpage",
+    "state": "NY",
+    "postal_code": "11714",
+    "country": "US",
+    "street2": "#111A",
+    "name": "John Doe",
+    "company": "JD Distribution",
+    "phone": "123-345-5678",
+    "email": "john.doe@gmail.com"
+  },
+  "total_shipments_in_order": 1,
+  "shipment_sequence_number": 1
+}'
+
+```
