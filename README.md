@@ -88,10 +88,10 @@ X-API-Token: YOUR_API_KEY_HERE
     "postal_code": "11714",
     "country": "US",
     "street2": "#111A",
-    "name": "Andrew Haner",
-    "company": "Medusa Distribution",
-    "phone": "312-555-1212",
-    "email": "andrew@medusadistribution.com"
+    "name": "John Doe",
+    "company": "JD Distribution",
+    "phone": "123-345-5678",
+    "email": "john.doe@gmail.com"
   },
   "total_shipments_in_order": 1,
   "shipment_sequence_number": 1
