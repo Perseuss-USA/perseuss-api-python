@@ -1,6 +1,8 @@
 # Perseuss Shipping Label API
 
-The Perseuss Shipping Label API enables warehouses, 3PLs, and fulfillment systems to create real-time shipping labels, retrieve tracking numbers, and get accurate carrier rates — starting with **Better Trucks** as the first supported carrier.
+The Perseuss Shipping Label API enables warehouses, 3PLs, and fulfillment systems to create real-time shipping labels, retrieve tracking numbers, and get accurate carrier rates 
+
+Starting with **Better Trucks** as the first supported carrier.
 
 Use this API to integrate label generation directly into your WMS, OMS, or shipping workflow.
 
